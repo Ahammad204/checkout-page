@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Food Recipe Page</h1>
+<h1 align="center">Checkout Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Dev challenges</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://ahammad204.github.io/Food-recipe-page/">
+    <a href="https://ahammad204.github.io/checkout-page/">
       Live Link
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/solutions/Ig7zeejP4i0IU7U3d4wi">
+    <a href="https://legacy.devchallenges.io/solutions/8p3YrHhFBtI2Zjc6OY73">
       Solution
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://legacy.devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Challenge
     </a>
   </h3>
@@ -36,9 +36,9 @@
 
 ## Overview
 
-![screenshot](https://i.ibb.co/RYcmvC7/ahammad204-github-io-Food-recipe-page.png)
+![screenshot](https://i.ibb.co/BsJb1Kd/website-overview.jpg)
 
-If Image is not working click [Here](https://imgur.com/a/KujtUcH)
+If Image is not working click [Here](https://i.ibb.co/BsJb1Kd/website-overview.jpg)
 
 ### Built With
 
@@ -53,7 +53,7 @@ If Image is not working click [Here](https://imgur.com/a/KujtUcH)
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements

@@ -36,7 +36,7 @@
     <h1 class="title">Checkout</h1>
     <section class="checkout-section">
       <div class="info-section">
-        <form>
+        <form id="orderForm">
           <h4 class="form-title">Contact information</h4>
 
           <!-- E-mail input field -->
@@ -44,16 +44,149 @@
             <p class="input-field-title">E-mail</p>
             <div class="input-field">
               <i class="fa-solid fa-envelope icon" style="color: #828282"></i>
-              <input type="email" placeholder="Enter Your Email" />
+              <input type="email" placeholder="Enter your email..." required />
             </div>
           </div>
+
+          <!-- Phone input field -->
+          <div class="form-input">
+            <p class="input-field-title">Phone</p>
+            <div class="input-field">
+              <i class="fa-solid fa-phone icon" style="color: #828282"></i>
+              <input type="number" placeholder="Enter your phone..." required />
+            </div>
+          </div>
+
+          <h4 class="form-title">Shipping address</h4>
+
+          <!-- Full Name input field -->
+          <div class="form-input">
+            <p class="input-field-title">Full Name</p>
+            <div class="input-field">
+              <i
+                class="fa-solid fa-circle-user icon"
+                style="color: #828282"
+              ></i>
+              <input
+                type="text"
+                placeholder="Enter your full name..."
+                required
+              />
+            </div>
+          </div>
+
+          <!-- address input field -->
+          <div class="form-input">
+            <p class="input-field-title">Address</p>
+            <div class="input-field">
+              <i class="fa-solid fa-house icon" style="color: #828282"></i>
+              <input type="text" placeholder="Enter your address..." required />
+            </div>
+          </div>
+          <!-- City input field -->
+          <div class="form-input">
+            <p class="input-field-title">City</p>
+            <div class="input-field">
+              <i class="fa-solid fa-city icon" style="color: #828282"></i>
+              <input type="text" placeholder="Enter your city..." required />
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 10px;">
+
+            <!-- Country input field -->
+            <div class="form-input">
+              <p class="input-field-title">Country</p>
+              <div class="input-field">
+                <i class="fa-solid fa-earth-americas icon" style="color: #828282"> </i>
+        
+                <select class="input-select"  name="countries" id="countries"></select>
+              </div>
+            </div>
+            <!-- Postal code input field -->
+            <div class="form-input">
+              <p class="input-field-title">Postal code</p>
+              <div class="input-field">
+                <i class="fa-solid fa-envelopes-bulk icon" style="color: #828282"></i>
+                <input
+                  type=""
+                  placeholder="Enter your postal code..."
+                  style="width: 200px;"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+         <div class="save-info">
+          <input type="checkbox" class="custom-checkbox" required>
+          <span class="input-field-title">Save this information for next time</span>
+         </div>
+
+         <div class="continue">
+          <input class="continue-btn" type="submit" value="Continue">
+         </div>
+
         </form>
       </div>
-      <div class="product-section"></div>
+    
+      <div class="product-section">
+
+        <!-- Products section -->
+        <div class="products">
+
+          <!-- Product 01 -->
+          <div class="product">
+            <div class="product-img">
+              <img src="./Images/photo1.png" alt="">
+            </div>
+            <div class="product-price">
+              <h1 class="product-title">Vintage Back bag</h1>
+              <span class="product-final-price">$54.99</span>
+              <span class="discount-price"><s>$94.99</s></span>
+              <div class="product-counter">
+                <span class="minus">-</span>
+                <span class="num">00</span>
+                <span class="plus">+</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 02 -->
+          <div class="product">
+            <div class="product-img">
+              <img src="./Images/photo2.png" alt="">
+            </div>
+            <div class="product-price">
+              <h1 class="product-title">Levi Shoes</h1>
+              <span class="product-final-price">$74.99</span>
+              <span class="discount-price"><s>$124.99</s></span>
+              <div class="product-counter">
+                <span class="minus">-</span>
+                <span class="num">00</span>
+                <span class="plus">+</span>
+              </div>
+            </div>
+          </div>
+
+          <hr style="margin-top: 40px;">
+          <div class="pricing">
+            <p class="shipping">Shipping</p>
+            <span class="cost">$19</span>
+          </div>
+          <hr style="margin-top: 30px;">
+          <div class="pricing">
+            <p class="shipping">Total</p>
+            <span class="total">$00</span>
+          </div>
+        </div>
+
+      </div>
     </section>
     <script
       src="https://kit.fontawesome.com/87b840840b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -24,14 +24,16 @@
   font-size: 16px;
   font-weight: 600;
 }
-.input-field input {
+.input {
   border: none;
   outline: none;
   color: rgb(51, 51, 51);
   font-size: 16px;
   font-weight: 600;
-  width: 450px;
+  width: 480px;
+ 
 }
+ 
 .icon {
   margin: 0px 15px 0px 10px;
   font-size: 18px;
@@ -42,6 +44,7 @@
   border-radius: 12px;
   padding: 18px 0px 18px 10px;
   margin-top: 10px;
+  width: fit-content;
 }
 .input-option {
   color: rgb(51, 51, 51);
@@ -54,6 +57,15 @@
   outline: none;
   font-size: 16px;
   font-weight: 500;
+}
+
+.postal{
+    border: none;
+    outline: none;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px ; 
 }
 
 .save-info {
@@ -178,8 +190,63 @@
   font-size: 18px;
   font-weight: 600;
 }
-.cost,.total {
+.cost,
+.total {
   color: rgb(51, 51, 51);
   font-size: 14px;
   font-weight: 600;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  
+
+  .checkout-section {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  /* Input field Style */
+  .form-input {
+    margin-top: 25px;
+  }
+  .input-field{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+ 
+  .input-field input {
+    width: 100%;
+  }
+
+
+  .input-select {
+    width: 50%;
+   
+  }
+  .postal{
+    width: 50%;
+    
+  }
+
+  /* Product section styling */
+  .product-section {
+    border-radius: 12px;
+    background: rgb(242, 242, 242);
+    width: 100%;
+    height: 535px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+
+  .product-counter {
+    padding: 5px;
+    gap: 5px;
+    margin-top: 30px;
+    
+  }
+
+
 }
